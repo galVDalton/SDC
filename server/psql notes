@@ -1,0 +1,6 @@
+psql -f migration.sql HairstylesMVP
+psql -f seed.sql HairstylesMVP
+lsof -i :3000
+kill -9
+
+node --watch server.js

@@ -12,6 +12,13 @@
     "dev:server": "npm run dev --workspace=server"
   },
   "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
     "concurrently": "^7.1.0"
+  },
+  "dependencies": {
+    "k6": "^0.0.0",
+    "pg": "^8.11.1",
+    "react-player": "^2.12.0",
+    "react-youtube": "^10.1.0"
   }
 }
